@@ -1,0 +1,29 @@
+.navTool{
+    background: rgba(137, 220, 13,0.1);
+    height: 100%;
+    border: 1px solid back;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.navTool h1{
+    font-size: 1.5rem;
+    margin: 2rem;
+    color: azure;
+}
+
+.navTool li{
+    list-style: none;
+    padding: 1rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+
+.navTool li:hover{
+        background-color: rgba(0, 0, 0,.2);
+}
+
+.navTool a{
+    text-decoration: none;
+    color: azure;
+}
